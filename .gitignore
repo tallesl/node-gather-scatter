@@ -1,0 +1,6 @@
+node_modules/
+html/
+posts/
+.*.swp
+.DS_Store
+npm-debug.log
