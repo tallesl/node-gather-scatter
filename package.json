@@ -1,21 +1,21 @@
 {
   "author": "Talles L <talleslasmar@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tallesl/gather-scatter/issues"
+    "url": "https://github.com/tallesl/node-gather-scatter/issues"
   },
-  "description": "a stream that outputs an array with the accumulated input received and another that does the opposite",
+  "description": "A stream that outputs an array with the accumulated input received and another that does the opposite.",
   "devDependencies": {
-    "coveralls": "^2.11.4",
-    "istanbul": "^0.3.22",
-    "mocha": "^2.3.3",
+    "coveralls": "^2.11.8",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
     "stream-array": "^1.1.1"
   },
-  "homepage": "https://github.com/tallesl/gather-scatter#readme",
+  "homepage": "https://github.com/tallesl/node-gather-scatter",
   "keywords": [
     "gather",
     "scatter",
     "collect",
-    "accumulat",
+    "accumulate",
     "expand",
     "contract",
     "stream",
@@ -26,14 +26,13 @@
     "transform"
   ],
   "license": "Fair",
-  "main": "index.js",
   "name": "gather-scatter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tallesl/gather-scatter.git"
+    "url": "git+https://github.com/tallesl/node-gather-scatter.git"
   },
   "scripts": {
     "test": "mocha"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

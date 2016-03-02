@@ -1,14 +1,14 @@
 'use strict'
 
-let assert    = require('assert')
-  , Gather    = require('./gather')
-  , Scatter   = require('./scatter')
-  , streamify = require('stream-array')
+const assert = require('assert')
+const Gather = require('.').Gather
+const Scatter = require('.').Scatter
+const streamify = require('stream-array')
 
 it('gather', done => {
-  let expected = [ 1, 2, 3 ]
-    , produce  = streamify(expected)
-    , gather   = new Gather
+  const expected = [ 1, 2, 3 ]
+  const produce  = streamify(expected)
+  const gather   = new Gather
 
   gather.on('data', actual => assert.deepEqual(actual, expected))
   gather.on('error', assert.ifError)
@@ -18,10 +18,10 @@ it('gather', done => {
 })
 
 it('scatter', done => {
-  let expected = [ 1, 2, 3 ]
-    , produce  = streamify([ expected ])
-    , scatter  = new Scatter
-    , actual   = [ ]
+  const expected = [ 1, 2, 3 ]
+  const produce  = streamify([ expected ])
+  const scatter  = new Scatter
+  const actual   = [ ]
 
   scatter.on('data', data => actual.push(data))
   scatter.on('error', assert.ifError)
