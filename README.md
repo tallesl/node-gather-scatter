@@ -14,10 +14,10 @@ Check [test.js] for usage.
 [build-img]:           https://travis-ci.org/tallesl/node-gather-scatter.svg
 [coverage]:            https://coveralls.io/r/tallesl/node-gather-scatter?branch=master
 [coverage-img]:        https://coveralls.io/repos/tallesl/node-gather-scatter/badge.svg?branch=master
-[dependencies]:        https://david-dm.org/tallesl/gather-scatter
-[dependencies-img]:    https://david-dm.org/tallesl/gather-scatter.svg
-[devdependencies]:     https://david-dm.org/tallesl/gather-scatter#info=devDependencies
-[devdependencies-img]: https://david-dm.org/tallesl/gather-scatter/dev-status.svg
+[dependencies]:        https://david-dm.org/tallesl/node-gather-scatter
+[dependencies-img]:    https://david-dm.org/tallesl/node-gather-scatter.svg
+[devdependencies]:     https://david-dm.org/tallesl/node-gather-scatter#info=devDependencies
+[devdependencies-img]: https://david-dm.org/tallesl/node-gather-scatter/dev-status.svg
 [version]:             https://www.npmjs.com/package/gather-scatter
 [version-img]:         https://badge.fury.io/js/gather-scatter.svg
 [test.js]:             test.js
