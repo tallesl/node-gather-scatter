@@ -8,6 +8,7 @@
     "coveralls": "^2.11.8",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
+    "standard": "^7.1.2",
     "stream-array": "^1.1.1"
   },
   "homepage": "https://github.com/tallesl/node-gather-scatter",
@@ -32,7 +33,7 @@
     "url": "git+https://github.com/tallesl/node-gather-scatter.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
   "version": "1.0.1"
 }

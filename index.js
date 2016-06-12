@@ -1,6 +1,6 @@
 'use strict'
 
-const stream  = require('stream')
+const stream = require('stream')
 const util = require('util')
 
 exports.Gather = function () {
